@@ -33,7 +33,7 @@ Direction tells you the best exit to take with respect to the finish.
 # Animation
 The animation class takes in a Texture * texture, an unsigned int vector imageCount, and a float switchTime. The parameter texture points to an image loaded in the main.cpp from a specified file path. It contains every frame for each alternate animation. imageCount holds the number frames (imageCount.x) per number of alternative animations (imageCount.y). switchTime dictates the time difference in seconds (deltaTime) between each frame.
 In the player animation for example, the texture object is divided into 9 animations with 12 frames each.
-![Texture Example](https://i.ibb.co/zZkr07f/Texture.png)
+![Texture Example](https://i.imgur.com/EPj14YS.png)
 
 *Disclaimer: This class is based heavily on the one described by Hilze Vonck in his tutorial series SFML 2.4 For Beginners*
 
