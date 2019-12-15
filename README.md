@@ -37,3 +37,8 @@ In the player animation for example, the texture object is divided into 9 animat
 
 *Disclaimer: This class is based heavily on the one described by Hilze Vonck in his tutorial series SFML 2.4 For Beginners*
 
+# Collider 
+The collider class is a component of each object in the scene and allows the game to detect whether two objects are colliding. The collider class takes in a RectangleShape body by reference. RectangleShape is a SFML class that represents an area designated to a particular object in the scene. The checkCollider method of the Collider class takes in a collider of an opposing game object, other, and returns whether the two are overlapping. checkCollider also takes in int push, which dictates whether an object can push the other.
+The checkCollider function effectively repels the other object, calculating the degree to which the parent collider is overlapping and moves the other object to that degree in the opposite direction.
+![Collider Example](https://i.imgur.com/iNXIOav.png)
+
