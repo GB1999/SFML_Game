@@ -1,4 +1,4 @@
-#Overview
+# Overview
 This game makes use of SFML (Simple and Fast Multimedia Library) to draw objects to the screen each frame. It also uses vectors, casting, recursion, and graphs to incorporate each game object.
 #Goals
 As the player, your goal is to reach the dungeon exit without dying.
@@ -6,25 +6,26 @@ You will encounter random enemies in each room of the dungeon with varying prope
 Points are awarded by killing enemies.
 #Controls
 The keyboard is used to navigate the player around the dungeon. The keybindings are:
-###W- Move Up
-###A- Move Left
-###S- Move Down
-###D- Move Right
-Space- Shoot Projectile
-HUD
+### W- Move Up
+### A- Move Left
+### S- Move Down
+### D- Move Right
+### Space- Shoot Projectile
+
+# HUD
 There is a simple heads up display implemented to help you explore the dungeon.
 Score is displayed at the upper righthand corner. The top 5 highest scores are displayed at the end of each round.
 The green bar indicates health. The game will end if it is depleted
 Direction tells you the best exit to take with respect to the finish.
 
-Contents
-Animation
-Collider
-Projectile
-Player
-Enemies
-Rooms
-Map
+# Contents
+### Animation
+### Collider
+### Projectile
+### Player
+### Enemies
+### Rooms
+### Map
 
 
 
