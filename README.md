@@ -1,3 +1,4 @@
+![Gameplay example](https://i.imgur.com/Xk8yNSd.png)
 # Overview
 This game makes use of SFML (Simple and Fast Multimedia Library) to draw objects to the screen each frame. It also uses vectors, casting, recursion, and graphs to incorporate each game object.
 #Goals
@@ -67,7 +68,8 @@ Generate works by assigning a random room to a given coordinate and recursively 
 
 As rooms can have multiple openings, the algorithm will continue to recursively branch out until it reaches a spot that has already been taken or exceeds the bounds of the map.
 Populate fills each room with a random set of enemies.
-This algorithm ensures that each room is accessible by at least one entry. Which is important considering the start and finish could be in any room
+This algorithm ensures that each room is accessible by at least one entry. Which is important considering the start and finish could be in any room.
+
 ![Path example](https://i.imgur.com/dtM3BMU.png)
 
 Map also makes use of a graph data structure named GPS. GPS utilizes breadth first search to calculate the shortest route from the room the player is currently in to the finishing room. The main function of the game then takes the first step of this route and relays it to the player’s HUD in the form of a direction.
