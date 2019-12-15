@@ -54,7 +54,7 @@ Enemies are very similar to the Player class. However, they take in an extra int
 
 # Rooms
 Rooms are 2D vectors of wall game objects. Like the player and or enemies, wall has a texture to dictate its appearance and a collider object to interact with other objects. However, they also have a bool hasCollider, that determines whether this collider affects the player. 
-![Room Example](https://imgur.com/43f646f5-deb9-42ed-9731-ffd35aabc66f)
+![Room Example](https://i.imgur.com/aDuYG1k.png)
 
 Rooms also have a int variable type that defines their opening(s). This number is based off a preconstructed array index. 
 ![Preset Example](https://i.imgur.com/cMH97Tp.png)
