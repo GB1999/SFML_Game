@@ -54,7 +54,7 @@ Enemies are very similar to the Player class. However, they take in an extra int
 
 # Rooms
 Rooms are 2D vectors of wall game objects. Like the player and or enemies, wall has a texture to dictate its appearance and a collider object to interact with other objects. However, they also have a bool hasCollider, that determines whether this collider affects the player. 
-![Room Example](blob:https://imgur.com/43f646f5-deb9-42ed-9731-ffd35aabc66f)
+![Room Example](https://imgur.com/43f646f5-deb9-42ed-9731-ffd35aabc66f)
 
 Rooms also have a int variable type that defines their opening(s). This number is based off a preconstructed array index. 
 ![Preset Example](https://i.imgur.com/cMH97Tp.png)
@@ -63,6 +63,7 @@ Rooms also have a int variable type that defines their opening(s). This number i
 The map is a 2D vector of rooms (or alternatively a “4D” vector of walls).The map class has 4 main functions: Clear, Generate, Populate, and Display. 
 Clear allocates space for the map based on a predefined map size, filling the 2D vector of rooms (layout) with empty/null rooms. 
 Generate works by assigning a random room to a given coordinate and recursively generating appropriate “exit” rooms for each exit the room has. For example if I generate a room opening right at coordinate [x,y], the generate will call itself for the area to the right([x +1, y]) and generate an appropriate room opening left.
+
 ![Map Example](https://i.imgur.com/EMOXkW2.png)
 
 
