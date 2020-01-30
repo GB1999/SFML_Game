@@ -1,5 +1,5 @@
 
-[![Gameplay example](https://i.imgur.com/Xk8yNSd.png)]https://www.youtube.com/watch?v=VrtQwTMVOpY
+[![Gameplay example](https://i.imgur.com/Xk8yNSd.png)](https://www.youtube.com/watch?v=VrtQwTMVOpY)
 # Overview
 This game makes use of SFML (Simple and Fast Multimedia Library) to draw objects to the screen each frame. It also uses vectors, casting, recursion, and graphs to incorporate each game object.
 #Goals
